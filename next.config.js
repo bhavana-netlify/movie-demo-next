@@ -3,4 +3,12 @@ module.exports = {
     // ssr and displayName are configured by default
     styledComponents: true,
   },
+  rewrites: async () => {
+    return [
+      {
+        source: '/rpc/:path',
+        destination: 'https://beta.origins.com/rpc/:path'
+      }
+    ];
+}
 };
