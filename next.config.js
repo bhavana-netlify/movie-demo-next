@@ -3,7 +3,7 @@ module.exports = {
     // ssr and displayName are configured by default
     styledComponents: true,
   },
-  rewrites: async () => {
+  async rewrites() {
     return [
       {
         source: '/rpc/:path',
@@ -12,3 +12,4 @@ module.exports = {
     ];
 }
 };
+
