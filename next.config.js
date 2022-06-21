@@ -6,7 +6,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/rpc/:path',
+        source: '/movie/:path',
         destination: 'https://beta.origins.com/rpc/:path'
       }
     ];
