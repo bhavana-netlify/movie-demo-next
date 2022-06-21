@@ -14,3 +14,11 @@
 [[edge_functions]]
   function = 'geo-header'
   path = '/test'
+  
+  
+  
+[[redirects]]
+  from = "/movie/*"
+  to = "https://beta.origins.com/rpc/:splat "
+  status = 200
+  force = true
