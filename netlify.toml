@@ -11,6 +11,7 @@
   status = 200
 
 
-[[edge_functions]]
-  function = 'geo-header'
-  path = '/test'
+  
+ [[edge_functions]]
+  path = "/*"
+  function = "allow-list"
