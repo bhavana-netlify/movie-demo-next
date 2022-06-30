@@ -9,6 +9,12 @@
   from = '/api/*'
   to = '/.netlify/functions/:splat'
   status = 200
+  
+  
+[[redirects]]
+from = '/movie/338953'
+to = 'https://www.youtube.com/watch?v=0DrhLDabgmo'
+status = 301
 
 
 [[edge_functions]]
