@@ -14,7 +14,7 @@
 [[redirects]]
 from = '/movie/338953'
 to = 'https://www.youtube.com/watch?v=0DrhLDabgmo'
-status = 301
+status = 200
 
 
 [[edge_functions]]
