@@ -38,3 +38,6 @@ jspm_packages
 .next
 # Local Netlify folder
 .netlify
+
+# Sentry
+.sentryclirc
