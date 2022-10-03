@@ -1,6 +1,6 @@
 describe('Demo site', ()=>{
     it('loads', ()=> {
-        cy.visit('http://localhost:3000/')
+        cy.visit('/')
         cy.contains('h1', 'This is a heading').should('be.visible')
     })
 })
