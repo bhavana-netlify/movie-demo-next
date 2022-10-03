@@ -2,8 +2,14 @@
   command = 'npm run build'
   publish = '.next'
 
+[build.evironment]
+  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+  TERM ="xterm"
+
 [[plugins]]
   package ="netlify-plugin-cypress"
+  [plugins.input]
+    record = true
 
 [functions]
   node_bundler = "esbuild"
