@@ -10,6 +10,9 @@
   to = '/.netlify/functions/:splat'
   status = 200
 
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
 
 [[edge_functions]]
   function = 'geo-header'
