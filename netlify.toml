@@ -6,9 +6,9 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = '/contact-us'
+  from = '/contact-us/'
   to = '/404'
-  
+
 [[redirects]]
   from = '/api/*'
   to = '/.netlify/functions/:splat'
