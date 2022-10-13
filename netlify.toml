@@ -7,13 +7,19 @@
 
 [[redirects]]
   from = '/contact-us/'
-  to = '/404'
+  to = '/about-me'
 
 [[redirects]]
   from = '/api/*'
   to = '/.netlify/functions/:splat'
   status = 200
 
+
+
+[[redirects]]
+  from = '/google'
+  to = 'https://www.google.com/'
+  
 
 [[edge_functions]]
   function = 'geo-header'
