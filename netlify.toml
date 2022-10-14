@@ -10,10 +10,15 @@
   to = '/about-me'
 
 [[redirects]]
+  from = '/blog'
+  to = 'https://www.cinemablend.com/'
+  status = 200
+  
+[[redirects]]
   from = '/api/activity'
   to = 'https://www.boredapi.com/api/activity'
   status = 200
-  
+
 [[redirects]]
   from = '/api/*'
   to = '/.netlify/functions/:splat'
