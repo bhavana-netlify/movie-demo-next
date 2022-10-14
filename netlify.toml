@@ -6,7 +6,7 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = '/contact-us/'
+  from = '/contact-us'
   to = '/about-me'
 
 [[redirects]]
