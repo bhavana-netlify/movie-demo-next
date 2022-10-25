@@ -36,9 +36,9 @@ import { useHomeFetch } from "../hooks/useHomeFetch";
 
 const Home = ({ movies }) => {
   const {
-    state,
-    setState,
-    setStaticInitState,
+    //state,
+    //setState,
+    //setStaticInitState,
     loading,
     error,
     searchTerm,
