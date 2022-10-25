@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import {
   POSTER_SIZE,
@@ -27,6 +27,7 @@ export const getStaticProps = async () => {
     props: {
       movies,
     },
+    revalidate: 60,
   };
 };
 
@@ -45,9 +46,11 @@ const Home = ({ movies }) => {
     setIsLoadingMore,
   } = useHomeFetch();
 
+  const [testData, setTestData] = useState();
+  const [time, setTime] = useState();
+
   useEffect(() => {
     //Initialise the home page with static content here
-
     if (state.results.length < 1) {
       setState(movies);
       setStaticInitState(movies);
@@ -59,7 +62,6 @@ const Home = ({ movies }) => {
   const randFilm = day <= 19 ? day : 19;
   return (
     <>
-      <div className="w-full text-4xl text-center"> Movie DB!!!!!!!!</div>
       <Header></Header>
       {!searchTerm && state.results[randFilm] ? (
         <HeroImage
