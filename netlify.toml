@@ -14,3 +14,8 @@
 [[edge_functions]]
   function = 'geo-header'
   path = '/test'
+
+
+  [[edge_functions]]
+    function = 'current-time'
+    path = '/current-time'
