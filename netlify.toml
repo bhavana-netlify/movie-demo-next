@@ -16,6 +16,3 @@
   path = '/test'
 
 
-  [[edge_functions]]
-    function = 'current-time'
-    path = '/current-time'
