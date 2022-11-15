@@ -19,6 +19,3 @@
   path = "/geo"
   function = "geo"
 
-  [[edge_functions]]
-  path = '/current-time'
-  function = 'current-time'
