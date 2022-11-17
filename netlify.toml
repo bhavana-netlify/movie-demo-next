@@ -14,3 +14,7 @@
 [[edge_functions]]
   function = 'geo-header'
   path = '/test'
+
+[[edge_functions]]
+  function = 'env-var'
+  path = '/env'
